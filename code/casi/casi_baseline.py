@@ -40,9 +40,9 @@ class config:
     LEARNING_RATE = 1e-5
     EPOCHS = 5
 
-    TRAIN_FILE = '../../data/AD_CASI/csv_files/train.csv'
-    VAL_FILE = '../../data/AD_CASI/csv_files/dev.csv'
-    TEST_FILE = '../../data/AD_CASI/csv_files/test.csv'
+    TRAIN_FILE = '../../data/AD_CASI/csv_files/train_small_70.csv'
+    VAL_FILE = '../../data/AD_CASI/csv_files/dev_small_70.csv'
+    TEST_FILE = '../../data/AD_CASI/csv_files/test_small_70.csv'    
     EXTERNAL_FILE = '../../data/AD_CASI/csv_files/external_data.csv'
 
     SAVE_DIR = '../../models/'
